@@ -1,12 +1,10 @@
 import { useState } from "react";
 
 export function Counter() {
-  let [counter, setCounter] = useState(0);
-
+  const [counter, setCounter] = useState(0); // useState for real time synchronization with JS
   function increment() {
-    setCounter(counter+1);
+    setCounter(counter + 1);
   }
-
   return (
     <div>
       <h2>{counter}</h2>
