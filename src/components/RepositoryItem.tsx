@@ -1,8 +1,8 @@
 interface RepositoryItemProps {
   repository : {
-    name: String;
-    description: String;
-    html_url: String;
+    name: string;
+    description: string;
+    html_url: string;
   }
 }
 
